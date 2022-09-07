@@ -70,28 +70,87 @@ body{
 
 /* Arrancan los productos */
 
+
+
 .contenedor-producto{
     width: 80%;
-    margin-top: 50px;
+    max-width: 1490px;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
-    margin: 50px auto;
 }
 
 
 article{
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 30px;
     width: 300px;
     color: #fff;
     background-color: #000;
+    cursor: pointer;
+    margin: 30px auto;
 }
+
+article:hover{
+    box-shadow: 20px 10px 5px rgba(0, 0, 0, 0.700);;
+}
+
+
 
 article img{
     width: 100%;
+    height: 100%;
 }
+
+.icon-star{
+    display: none;
+}
+
+
+article:hover .icon-star{
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    position: absolute;
+    top: 5px;
+    left: 258px;
+    z-index: 100;
+}
+.icon-star:hover{
+    color: #000;
+}
+
+
+
+.nombre-prod{
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.precio-prod{
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    width: 100px;
+    border-radius: 30px;
+}
+
+.precio-prod:hover{
+    background-color: rgb(110, 108, 108);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 
 /* Arranca el footer */
