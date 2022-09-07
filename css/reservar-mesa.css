@@ -63,6 +63,16 @@ header{
 
 /* arrancan los inputs */
 
+.container-input{
+    margin-top: 50px;
+    text-align: center;
+}
+.titulo-continput{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
 .caja-inputs{
     display: flex;
     flex-direction: column;
