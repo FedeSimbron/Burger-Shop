@@ -98,7 +98,32 @@ input::placeholder{
     color: #fff;
 }
 input[type=submit]:hover{
-    background-color: rgb(141, 136, 136);
+    background-color: rgb(255, 255, 255);
     color: #000;
     border: 1px solid #fff;
+}
+
+
+.contactanos{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.contactanos a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.contactanos a:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+
+.contactanos i{
+    margin-left: 10px;
 }
