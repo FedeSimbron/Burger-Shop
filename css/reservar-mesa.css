@@ -25,15 +25,23 @@ header{
     color: #fff;
 }
 .container-header{
+    
+    max-width: 1700px;
     display: flex;
     justify-content: space-around;
     align-items:center ;
     padding: 10px;
+    margin: 0px auto;
+}
+.titulo{
+    text-align: center;
+    margin: 0px auto;
 }
 
 .icono a{
     font-size: 50px;
     color: #fff;
+    margin-left: 30px;
 }
 .carrito i{
     font-size: 25px;
@@ -52,3 +60,5 @@ header{
     width: 20px;
     margin-left: 30px;
 }
+
+/* arrancan los inputs */
