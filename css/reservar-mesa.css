@@ -43,6 +43,9 @@ header{
     color: #fff;
     margin-left: 30px;
 }
+.icono a:hover{
+    color: gray;
+}
 .carrito i{
     font-size: 25px;
     cursor: pointer;
