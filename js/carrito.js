@@ -1,12 +1,7 @@
-// let carrito =[]
 
-const agregarCarro = document.querySelectorAll(".icon-star");
-const abrirCarro= document.querySelector(".carrito");
+const agregarCarro = document.querySelector(".icon-star");
 
-
-
-
-agregarCarro.addEvenlistener("click", agregar);
+agregarCarro.addEventListener("click", agregar)
 
 function agregar(){
     alert("hola")
