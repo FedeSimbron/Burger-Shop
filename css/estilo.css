@@ -41,6 +41,32 @@ body{
     font-size: 25px;
     cursor: pointer;
 }
+/* contenido carrito */
+
+.contenido-carrito{
+    display: none;
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    top: 0px;
+    left: 0px;
+    margin-top: 87px;
+}
+
+.carrito:hover .contenido-carrito{
+    display: block;
+    
+}
+
+.caja-carro{
+    border: 1px solid #fff;
+    width: 100%;
+    height: 500px;
+}
+
+
 
 
 /* arrancan las opciones */
